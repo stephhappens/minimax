@@ -1,0 +1,27 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  color: $c-grey;
+  width: 100%;
+  padding: 2rem;
+
+  &__group {
+    display: flex;
+    margin: -1rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 1rem;
+    color: inherit;
+  }
+
+  a {
+    display: inline-block;
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+  }
+}
