@@ -1,9 +1,17 @@
-$c-primary: #F6F6F6;
+$c-primary: #F8F8F8;
 $c-grey: #303030;
+$c-off-white: #EEEEEE;
 $c-black: #111111;
 $c-white: #FFFFFF;
+$box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
+
+
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// @import 'font-awesome/scss/font-awesome';
 
 @import 'reset';
 @import 'layout';
 @import 'section';
 @import 'nav-bar';
+@import 'hero';
+@import 'homepage';

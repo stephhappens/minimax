@@ -14,7 +14,43 @@
 
 &__item {
   flex-grow: 1;
-  margin: 1rem;
+  // margin: 2rem 1rem;
+
+&-pages {
+  text-align: center;
+  background: #FF6B57;
+  color: $c-white;
+  padding: 1rem 3rem;
+  border-radius: .4rem;
+  box-shadow: $box-shadow;
+}
+
+&-home {
+  text-align: center;
+  background: #9B59B6;
+  color: $c-white;
+  padding: 1rem 3rem;
+  border-radius: .4rem;
+  box-shadow: $box-shadow;
+}
+
+&-blog {
+  text-align: center;
+  background: #41C3AC;
+  color: $c-white;
+  padding: 1rem 3rem;
+  border-radius: .4rem;
+  box-shadow: $box-shadow;
+}
+
+&-portfolio {
+  text-align: center;
+  background: #3498DB;
+  color: $c-white;
+  padding: 1rem 3rem;
+  border-radius: .4rem;
+  box-shadow: $box-shadow;
+}
 }
 }
 

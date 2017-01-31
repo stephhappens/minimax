@@ -1,0 +1,20 @@
+.hero {
+  display: flex;
+  flex-grow: 1;
+  background: $c-primary;
+  padding: 10rem 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+
+  &-demo {
+    background: $c-black;
+    color: $c-white;
+    padding: .5rem 0;
+  }
+}
+}

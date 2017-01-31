@@ -1,25 +1,27 @@
 <div class="app">
   <div class="app__top">
-      <nav class="top-nav">
-        <div class="top-nav__group">
-          <div class="top-nav__item">
-            <a href="#">MINIMAX</a>
+    <nav class="top-nav">
+      <div class="top-nav__group-left">
+        <div class="top-nav__item">
+          <a href="#">MINIMAX</a>
+        </div>
           </div>
 
-            <a class="top-nav__item"  href="#">HOME</a>
-            <a class="top-nav__item" href="#">ABOUT US</a>
-            <a class="top-nav__item" href="#">PORTFOLIO</a>
-            <a class="top-nav__item" href="#">BLOG</a>
-            <a class="top-nav__item" href="#">PRICING</a>
-            <a class="top-nav__item" href="#">SERVICES</a>
-            <a class="top-nav__item" href="#">CONTACT</a>
+        <div class="top-nav__group-right">
+
+          <a class="top-nav__item" href="#">HOME <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <a class="top-nav__item" href="#">ABOUT US</a>
+          <a class="top-nav__item" href="#">PORTFOLIO <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <a class="top-nav__item" href="#">BLOG <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <a class="top-nav__item" href="#">PRICING</a>
+          <a class="top-nav__item" href="#">SERVICES</a>
+          <a class="top-nav__item" href="#">CONTACT</a>
+
         </div>
 
-      </nav>
+
+    </nav>
   </div>
 
-<div class="app__section">
-
-{{outlet}}
-</div>
+  {{outlet}}
 </div>
