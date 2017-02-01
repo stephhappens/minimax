@@ -53,6 +53,7 @@
     opacity: 1;
 
     color: $c-primary;
+    background: $c-off-white;
     font-weight: bold;
     z-index: 1;
     font-size: 1.2rem;
@@ -69,5 +70,28 @@
     display: block;
     content: "";
     padding-top: 100%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.feature {
+  background: $c-white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    width: 50%;
   }
 }
